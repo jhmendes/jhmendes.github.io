@@ -1,8 +1,9 @@
 body {
   margin: 10px;
   font-family: 'Lato', sans-serif;
-  color: #747704;
+  color: #fff;
   font-weight: 300;
+  background: linear-gradient(90deg, yellow, green);
 }
 
  hr {
@@ -10,7 +11,10 @@ body {
 }
 
 .text-muted {
-  color: #BCBBBB;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  margin: 30px
 }
 
 .text-thin {
@@ -19,8 +23,13 @@ body {
 
 .title-super {
   font-size: 70px;
+  color: white;
 }
 
 .title-logo {
   margin-top: 20px;
+}
+
+.job-title {
+  color: white;
 }
