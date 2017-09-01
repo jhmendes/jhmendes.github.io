@@ -247,7 +247,7 @@ img {
   vertical-align: middle;
 }
 .img-responsive {
-  display: block;
+  display: inline;
   max-width: 100%;
   height: auto;
 }
