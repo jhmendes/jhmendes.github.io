@@ -42,32 +42,33 @@
     <div class="row">
       <div class="col-md-12">
         <h2 class="text-muted">Featured Work</h2>
+        <h4 class="text-muted">Click on an image to learn more</h4>
       </div>
     </div>
 
     <div class="row text-center">
       <div class="col-md-6">
-        <img class="img-responsive img-rounded" src="http://placehold.it/555x300" data-toggle="modal" data-target="#project1">
-        <h3>Appify</h3>
-        <p><a href="http://github.com">Link to project</a></p>
+        <img class="img-responsive img-rounded projimg" src="images/kettlebells.jpg" data-toggle="modal" data-target="#project1">
+        <h3>Gym Review Site</h3>
+        <p><a href="https://fathomless-scrubland-59804.herokuapp.com/">Link to project</a></p>
       </div>
       <div class="col-md-6">
-        <img class="img-responsive img-rounded" src="http://placehold.it/555x300" data-toggle="modal" data-target="#project2">
-        <h3>Appify</h3>
-        <p><a href="http://github.com">Link to project</a></p>
+        <img class="img-responsive img-rounded projimg" src="images/hartfordct.jpg" data-toggle="modal" data-target="#project2">
+        <h3>The Hartford Times</h3>
+        <p><a href="https://jhmendes.github.io/The_Hartford_Times/">Link to project</a></p>
       </div>
     </div>
 
 
     <div class="row text-center">
       <div class="col-md-6">
-        <img class="img-responsive img-rounded" src="http://placehold.it/555x300" data-toggle="modal" data-target="#project3">
-        <h3>Appify</h3>
-        <p><a href="http://github.com">Link to project</a></p>
+        <img class="img-responsive img-rounded projimg" src="images/space.jpg" data-toggle="modal" data-target="#project3">
+        <h3>Meetups In Space</h3>
+        <p><a href="https://github.com/jhmendes/MeetupsInSpace">Link to project</a></p>
       </div>
       <div class="col-md-6">
-        <img class="img-responsive img-rounded" src="http://placehold.it/555x300" data-toggle="modal" data-target="#project4">
-        <h3>Appify</h3>
+        <img class="img-responsive img-rounded projimg" src="images/rockpaperscissors.jpg" data-toggle="modal" data-target="#project4">
+        <h3>Rock-Paper-Scissors</h3>
         <p><a href="http://github.com">Link to project</a></p>
       </div>
     </div>
@@ -76,55 +77,74 @@
 
 
   <div class="skills" id="skills">
-          <h2>Skills</h2>
-          <p>I have spent a lot of time learning, and continue to refine and develop the fundamentals and principles of web developement, including:</p>
-          <section class="skills-list">
+    <h2>Skills</h2>
+    <p>I have spent a lot of time learning, and continue to refine and develop the fundamentals and principles of web developement, including:</p>
+    <section class="skills-list">
 
-            <section><!--section added for flexbox -->
-              <h3>CSS:</h3>
-              <ul>
-                  <li>Responsive Design</li>
-                  <li>Mobile-First</li>
-                  <li>Flexbox</li>
-                  <li>Sass</li>
-                  <li>Bootstrap</li>
-              </ul>
-            </section>
+      <section>
+        <!--section added for flexbox -->
+        <h3>CSS:</h3>
+        <ul>
+          <li>Responsive Design</li>
+          <li>Mobile-First</li>
+          <li>Flexbox</li>
+          <li>Sass</li>
+          <li>Bootstrap</li>
+        </ul>
+      </section>
 
-            <section>
-              <h3>JavaScript:</h3>
-              <ul>
-                  <li>ES6</li>
-                  <li>Object-Oriented JS</li>
-                  <li>jQuery</li>
-                  <li>JSON/AJAX</li>
-                  <li>APIs</li>
-              </ul>
-            </section>
+      <section>
+        <h3>JavaScript:</h3>
+        <ul>
+          <li>ES6</li>
+          <li>Object-Oriented JS</li>
+          <li>jQuery</li>
+          <li>JSON/AJAX</li>
+          <li>APIs</li>
+        </ul>
+      </section>
 
-            <section>
-              <h3>HTML:</h3>
-              <ul>
-                  <li>Semantic Markup</li>
-                  <li>SEO</li>
-                  <li>Accessibility</li>
-                  <li>Website Optimization</li>
-                  <li>Browser Compatibility</li>
-              </ul>
-            </section>
+      <section>
+        <h3>HTML:</h3>
+        <ul>
+          <li>Semantic Markup</li>
+          <li>SEO</li>
+          <li>Accessibility</li>
+          <li>Website Optimization</li>
+          <li>Browser Compatibility</li>
+        </ul>
+      </section>
 
-          </section>
-        </div><!--/.skills-->
+    </section>
+  </div>
+
+  <div class="contact" id="contact">
+    <h2>Contact</h2>
+    <div class="contact-container">
+      <p>If you're interested in chatting or want more information on what I've been working on, I'd love to hear from you!</p>
+      <ul class="contact-list">
+        <li class="mail-icon">
+          <a href="mailto:johnhenrymendes@gmail.com">&#128231;</a></li>
+      </ul>
+    </div>
+    <!--/.contact-container-->
+  </div>
+  <!--/.skills-->
+
+  <footer>&copy;2017 John Mendes</footer>
 
 
   <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+          <h4 class="modal-title" id="myModalLabel">Gym Review Site</h4>
         </div>
         <div class="modal-body">
-          <img class="img-responsive" src="http://placehold.it/555x300"> This was my first project in this class. I learned a lot about HTML and CSS. This is a modal and it uses Javascript.
+          <img class="img-responsive" src="images/kettlebells.jpg">
+          <p>This was my first full-scale Ruby on Rails Web Application from Launch Academy Online. Its a continual work in progress. It includes user authentication and authorization using the Devise Ruby Gem. It is a web application that allows you to
+            enter your favorite gyms to rate and review.
+          </p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -137,26 +157,12 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+          <h4 class="modal-title" id="myModalLabel">The Hartford Times</h4>
         </div>
         <div class="modal-body">
-          <img class="img-responsive" src="http://placehold.it/555x300"> This was my second project in this class. I learned a lot about HTML and CSS. This is a modal and it uses Javascript.
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-        </div>
-        <div class="modal-body">
-          <img class="img-responsive" src="http://placehold.it/555x300"> This was my third project in this class. I learned a lot about HTML and CSS. This is a modal and it uses Javascript.
+          <img class="img-responsive" src="images/hartfordct.jpg">
+          <p>This was a project from Udacity's Front End Web Development nanodegree. Utilizing responsive web design techniques, media queries, breakpoints, etc. A mock up of a news site for the city of Hartford, CT.
+          </p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -169,10 +175,12 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+          <h4 class="modal-title" id="myModalLabel">Rock-Paper-Scissors</h4>
         </div>
         <div class="modal-body">
-          <img class="img-responsive" src="http://placehold.it/555x300"> This was my fourth project in this class. I learned a lot about HTML and CSS. This is a modal and it uses Javascript.
+          <img class="img-responsive" src="images/rockpaperscissors.jpg">
+          <p>A Rock, Paper, Scissors game built with Ruby and Sinatra
+            <p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -181,18 +189,27 @@
     </div>
   </div>
 
-  <div class="contact" id="contact">
-          <h2>Contact</h2>
-          <div class="contact-container">
-            <p>If you're interested in chatting or want more information on what I've been working on, I'd love to hear from you!</p>
-            <ul class="contact-list">
-              <li class="mail-icon">
-<a href="mailto:johnhenrymendes@gmail.com">&#128231;</a></li>
-            </ul>
-        </div><!--/.contact-container-->
-      </div><!--/.contact-->
 
-      <footer>&copy;2017 John Mendes</footer>
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Meetups In Space</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/space.jpg">
+          <p>This project is a mock up of Meetup.com built with Ruby, Sinatra, HTML, CSS, and Active Record.</p>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--/.contact-->
+
 
 </body>
 
