@@ -12,7 +12,8 @@ body {
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	font-family: 'Work Sans', sans-serif;
+	background: linear-gradient(-45deg, #0b486b, #2c7744, #23A6D5, #23D5AB);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 10s ease infinite;
 	-moz-animation: Gradient 10s ease infinite;
@@ -71,7 +72,7 @@ ul, ol, li {
 
 a {
   text-decoration: none;
-  color: red;
+  color: #fff;
 }
 
 button {
@@ -99,6 +100,10 @@ a:hover {
   }
 }
 
+.row {
+	margin-bottom: 20px;
+}
+
 
 /*END SECTION*/
 
@@ -109,14 +114,17 @@ a:hover {
   color: #000;
   text-align: center;
   font-size: 1.5em;
+	padding: 20px;
 }
 
 .modal-title {
-  font-size: 50px;
+  font-size: 35px;
   text-align: center;
   color: #000;
   font-weight: 600;
 }
+
+
 
 
 /*END SECTION*/
@@ -132,6 +140,8 @@ a:hover {
 .title-logo {
   margin-top: 20px;
 }
+
+
 
 .job-title {
   color: white;
@@ -459,6 +469,7 @@ a:hover {
 footer {
   text-align: center;
 color: #fff;
+padding-bottom: 30px;
 }
 
 
