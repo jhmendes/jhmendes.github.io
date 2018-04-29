@@ -84,6 +84,7 @@ button {
 
 a:hover {
   color: #fff;
+  font-size: 15px;
 }
 
 .projimg {
@@ -140,6 +141,7 @@ a:hover {
 
 .title-logo {
   margin-top: 20px;
+  border-radius: 50%;
 }
 
 
