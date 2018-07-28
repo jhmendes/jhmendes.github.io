@@ -14,11 +14,17 @@ body {
 	height: 90vh;
 	color: #fff;
 	font-family: 'Work Sans', sans-serif;
-	background: linear-gradient(-45deg, #0b486b, #2c7744, #23A6D5, #23D5AB);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 10s ease infinite;
+  /* background: linear-gradient(-45deg, #0b486b, #2c7744, #23A6D5, #23D5AB); */
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../images/laptop.jpg");
+	/* background-size: 400% 400%; */
+	/* -webkit-animation: Gradient 10s ease infinite;
 	-moz-animation: Gradient 10s ease infinite;
-	animation: Gradient 10s ease infinite;
+  animation: Gradient 10s ease infinite; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 @-webkit-keyframes Gradient {
@@ -85,11 +91,14 @@ button {
 a:hover {
   color: #fff;
   font-size: 15px;
+  transition: .5s;
+  text-decoration: none;
 }
 
 .projimg {
   width: 100%;
   height: 306px;
+  border: 5px solid #fff;
 }
 
 .img-responsive {
@@ -339,7 +348,7 @@ a:hover {
 }
 
 .skills ul li {
-  border-bottom: 1px solid #fff;
+  
   color: black;
   text-align: center;
   background: #fff;
@@ -347,6 +356,12 @@ a:hover {
   margin-top: 10px;
   width: 250px;
   margin: 15px auto;
+}
+
+.skills ul li:hover {
+  background-color: transparent;
+  color: #fff;
+  transition: all .4s;
 }
 
 @media (min-width: 768px) {
@@ -479,3 +494,35 @@ padding-bottom: 30px;
 
 
 /*END SECTION*/
+
+.hvr-reveal {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  
+}
+.hvr-reveal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-color: #2098D1;
+  border-style: solid;
+  border-width: 0;
+  -webkit-transition-property: border-width;
+  transition-property: border-width;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-reveal:hover:before, .hvr-reveal:focus:before, .hvr-reveal:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  border-width: 4px;
+}
