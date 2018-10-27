@@ -15,7 +15,12 @@ body {
 	color: #fff;
 	font-family: 'Work Sans', sans-serif;
   /* background: linear-gradient(-45deg, #0b486b, #2c7744, #23A6D5, #23D5AB); */
-  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("../images/laptop.jpg");
+  /* background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("../images/laptop.jpg"); */
+  /* background-image: linear-gradient(rgba(109, 213, 237,.4), rgba(33, 147, 176, .4)); */
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 	/* background-size: 400% 400%; */
 	/* -webkit-animation: Gradient 10s ease infinite;
 	-moz-animation: Gradient 10s ease infinite;
@@ -24,8 +29,11 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
+  
+  /* background-attachment: fixed; */
 }
+
+
 
 @-webkit-keyframes Gradient {
 	0% {
